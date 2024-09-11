@@ -1,0 +1,98 @@
+body{background-color:#eeeeee;}
+
+#container{
+
+    display:flex;
+    
+    width:60vw;
+    height:fit-content;
+    min-height: 70vh;
+    flex-basis:auto;
+    flex-direction: column;
+
+    margin-left: 15vw;
+    margin-right: 15vw;
+    
+    margin-top: 10vh;
+    border-radius: 20px;
+    padding-top: 5vh;
+    padding-bottom:5vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    
+    align-items: center;
+    
+    
+    
+background-color: #201e43;
+}
+
+
+
+#dropdowndiv{
+
+    display:flex;
+
+
+    
+
+}
+
+#dropdown{
+    background-color:#606dbc;
+    color:#eeeeee;
+    
+}
+
+#mybutton{
+    color: #201e43;
+}
+
+#photo{
+    border-radius: 20px;
+    margin-top: 30px;
+    border: 10px solid #134b70;
+}
+
+#paragraph{
+    color:aliceblue;
+}
+
+#titlebox{display: flex;}
+
+#titlee{ font-size: 7vw;color:aliceblue;}
+
+#paragraph{font-size: 1.5rem;font-family: "Anton", sans-serif;
+    font-weight: 200;
+    font-style: normal;}
+
+.anton-regular {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  body{background:repeating-linear-gradient(
+    45deg,
+    #606dbc,
+    #606dbc 10px,
+    #465298 10px,
+    #465298 20px
+  );}
+
+
+  @keyframes blink{
+
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity:0;
+    }
+    100%{opacity:1;}
+  }
+
+
+  .blinking{
+    animation:blink 2s infinite;
+  }
